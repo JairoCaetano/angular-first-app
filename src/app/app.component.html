@@ -1,4 +1,8 @@
 <!-- Toolbar -->
 <h1>{{title | uppercase}}</h1>
-<app-heroes></app-heroes>
+<nav>
+    <button><a routerLink="/heroes">Heroes</a></button>
+    <button><a routerLink="/dashboard">Dashboard</a></button>
+</nav>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
